@@ -1,0 +1,46 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@formkit/addons": "^0.17.2",
+    "@formkit/themes": "^0.17.2",
+    "@formkit/vue": "^0.17.2",
+    "@soerenmartius/vue3-clipboard": "^0.1.2",
+    "@vue/compat": "^3.3.4",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "bootstrap-vue": "^2.23.1",
+    "deep-equal": "^2.2.1",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.29.2",
+    "sass": "^1.62.1",
+    "sortablejs": "^1.15.0",
+    "sortablejs-vue3": "^1.2.9",
+    "v-form-builder": "^2.1.1",
+    "vue": "^3.3.2",
+    "vue-draggable": "^2.0.6",
+    "vue-form-generator": "^2.3.4",
+    "vue-router": "^4.2.0",
+    "vue-upload-component": "^2.8.23",
+    "vue3-clipboard": "^1.0.0",
+    "vue3-form-generator": "^0.6.6",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.5"
+  }
+}
